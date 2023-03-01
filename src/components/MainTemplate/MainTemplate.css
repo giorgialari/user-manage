@@ -1,0 +1,30 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: black;
+    font-size: 18px;
+    z-index: 9999;
+    left:0;
+}
+.navbar .container>p {
+    margin-bottom: 0px;
+}
+
+footer>div {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    font-size: 16px;
+    z-index: 9999;
+}
+
+.text-dark{
+    margin: 0;
+}
+

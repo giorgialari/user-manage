@@ -1,0 +1,59 @@
+/* stile dell'alert */
+.alert{
+    font-size: 14px;
+    padding: 5px;
+}
+/* stile del form */
+.neuromorph-form {
+    border-radius: 30px;
+    box-shadow: inset 6px 6px 10px #c3c3c3,
+        inset -6px -6px 10px #e3e3e3;
+    padding: 10px;
+}
+
+.neuromorph-form h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.neuromorph-form input {
+    background-color: #d1d1d1;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 10px #c3c3c3,
+        inset -5px -5px 10px #e3e3e3;
+    color: #222;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.neuromorph-form button {
+    background-color: #43a047;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 18px;
+    width: 100%;
+}
+.neuromorph-form input:focus {
+    background-color: lightgrey;
+}
+
+/* Stile delle label */
+.input-container>label {
+    font-size: 15px;
+    color: grey;
+    margin-left: 10px
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
